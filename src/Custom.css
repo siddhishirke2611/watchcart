@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h6{
+    font-size: calc(13px + 1*(100vw - 320px) / 1600);
+    line-height: 1.2;
+    margin: 0;
+    font-weight: 400;
+}
+
+:root {
+    --theme-color: #0baf9a;
+}
+
+/* header css start */
+.header-top {
+    padding: 10px 0;
+    background-color: var(--theme-color);
+}
+
+.header-top .main-header{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* get in app css start */
+
+.header-top .top-left-header {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.header-top .top-left-header svg {
+    font-size: 18px;
+    margin-right: 5px;
+}
+
+.header-top .top-left-header span {
+    margin-top: 1px;
+    font-weight: 500;
+}
+
+
+
