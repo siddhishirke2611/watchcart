@@ -1,13 +1,15 @@
 import React from 'react'
+import { useTranslation } from 'react-i18next'
 
 const News = () => {
+  const { t } = useTranslation()
   return (
     <div className='timer-notification'>
       <h6>
         <strong className='me-1'>
-          Welcome to Watchcart!
+          {t("strong")}
         </strong>
-        Wrap new offers/gift every single day on Weekends.
+        {t("offer")}
         <strong className='me-1'>
           New Coupon Code: FAST50
         </strong>
