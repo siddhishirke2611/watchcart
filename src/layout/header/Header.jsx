@@ -2,6 +2,7 @@ import React from 'react'
 import News from './news/News'
 import GetInApp from './getinapp/GetInApp'
 import LanguageSelector from '../../component/language-selector/LanguageSelector'
+import Currency from './currency/Currency'
 
 const Header = () => {
   return (
@@ -14,6 +15,7 @@ const Header = () => {
               <GetInApp />
               <News />
               <LanguageSelector/>
+              <Currency/>
               </div>
             </div>
           </div>
